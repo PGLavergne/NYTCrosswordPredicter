@@ -1,1 +1,8 @@
 # CS39AA-Project
+1. Introduction/Background
+
+This project uses a dataset sourced from the New York Times Crossword puzzles (https://www.kaggle.com/datasets/darinhawley/new-york-times-crossword-clues-answers-19932021/), covering clues and answers from 1993 to 2021. Each entry in the dataset includes a crossword clue, the corresponding answer word, and the date it appeared in the NYT crossword. The dataset is diverse, featuring clues on various topics and in different styles of language. The main task is a natural language processing (NLP) problem: predicting the correct answer (word) when given a crossword clue. Essentially, the project aims to teach a computer to understand the relationships between clues and their solutions. The challenge is treated as a multiclass classification problem, where the different possible words serve as the categories.
+
+The objective is to train a machine learning model (initially using a Random Forest Classifier) to make accurate predictions of crossword answers based on the given clues. The potential applications of this project include helping crossword enthusiasts, enhancing tools for automated crossword-solving, and contributing to the broader field of understanding language through NLP.
+
+For this initial model, the approach is relatively straightforward. Each word in the crossword clue is treated as a separate feature, somewhat like putting all the words in a bag. This is a simple method to start understanding the relationships between words in clues and their corresponding answers.
